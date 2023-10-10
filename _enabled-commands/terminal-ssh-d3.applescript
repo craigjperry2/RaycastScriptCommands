@@ -19,6 +19,8 @@ on run argv
 
       activate
 
+      delay 0.1
+
       if busy of window 1 then
           tell application "System Events" to keystroke "t" using command down
       end if
